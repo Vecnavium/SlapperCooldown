@@ -14,7 +14,7 @@ class SlapperCooldown extends PluginBase implements Listener {
 	/** @var array */
 	private $cfg = [];
 
-	public function onEnable() {
+	public function onEnable(): void {
 	    $this->saveDefaultConfig();
 	    $this->cfg = $this->getConfig()->getAll();
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
