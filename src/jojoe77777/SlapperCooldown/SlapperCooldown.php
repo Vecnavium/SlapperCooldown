@@ -30,7 +30,7 @@ class SlapperCooldown extends PluginBase implements Listener {
 	        return;
         }
         if(($this->lastHit[$name] + $this->cfg["delay"]) > (microtime(true))){
-            $ev->setCancelled();
+            $ev->cancel();
             $ev->getDamager()->sendTip($this->cfg["message"]);
         } else {
             $this->lastHit[$name] = microtime(true);
