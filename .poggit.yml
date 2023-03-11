@@ -2,7 +2,7 @@
 build-by-default: true
 branches:
 - master
-- PM4
+- PM5
 projects:
   SlapperCooldown:
     path: ""
