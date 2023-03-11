@@ -1,7 +1,7 @@
 name: SlapperCooldown
 author: [Vecnavium, jojoe77777]
-version: 1.0.1
+version: 1.0.2
 main: jojoe77777\SlapperCooldown\SlapperCooldown
-api: [4.0.0]
+api: [5.0.0]
 website: https://github.com/Vecnavium/SlapperCooldown
 depend: [Slapper]
